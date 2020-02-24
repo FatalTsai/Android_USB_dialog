@@ -1,0 +1,13 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_pressed="true"
+        android:drawable="@drawable/audio_to_car_press" />
+
+
+
+    <item android:state_activated="true"
+        android:drawable="@drawable/audio_to_car_active" />
+
+
+
+    <item android:drawable="@drawable/audio_to_car" /> //default
+</selector>
